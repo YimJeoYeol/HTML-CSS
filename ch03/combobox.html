@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>콤보박스 만들기</title>
+</head>
+<body>
+    <form method="get" action="">
+        회원님의 국적과 여행한 국가를 선택하세요<hr>
+        국적 : 
+        <select name="country">
+            <option value="France">프랑스</option>
+            <option value="Korea" selected>대한민국</option>
+            <option value="USA">미국</option>
+            <option value="Gremany">독일</option>
+            <option value="Others">기타</option>
+        </select>
+        <hr><hr>
+        여행한 도시:
+        <select name="city" size="5" multiple>
+            <option value="서울">서울</option>
+            <option value="파리">파리</option>
+            <option value="뉴욕">뉴욕</option>
+            <option value="런던">런던</option>
+            <option value="헬싱키">헬싱키</option>
+            <option value="베를린">베를린</option>
+            <option value="etc">기타</option>
+        </select>
+        <button type="submit">데이터 전송</button>
+    
+</body>
+</html>

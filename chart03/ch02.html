@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>input 태그연습</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form method="post" action="">
+        전공(학과): <input type="text" name="major" /><br>
+        이 &nbsp;&nbsp;&nbsp;&nbsp; 름 : <input type = "text" name="name" /><br>
+        중간성적 : <input type = "text" name="middle" /><br>
+        비밀번호 : <input type = "password" name =" pw" /><br>
+        기말성적 : <input type = "text" name="last" /><hr>
+        
+
+
+        Q. 학생의 성별과 학년은 ?<br>
+        성별 : <input type = "radio" name = "gender" value="male"/>남성
+               <input type = "radio" name = "gender" value="female" checked/>여성<br>
+
+        학년 : <input type = "radio" name = "year" value="freshman"/>1학년
+               <input type = "radio" name = "year" value="sophermore"/>2학년
+               <input type = "radio" name = "year" value="junior"/>3학년
+               <input type = "radio" name = "year" value="senior"checked/>4학년<hr>
+
+        Q. 즐겨보는 스포츠 중계 프로그램을 모두 선택하시오.<br>
+        <input type = "checkbox" name   = "sport" value = "baseball"/>프로야구 중계
+        <input type = "checkbox" name   = "sport" value = "football" checked/>프로축구 중계
+        <input type = "checkbox" name   = "sport" value = "golf"/>프로골프 중계
+        <input type = "checkbox" name   = "sport" value = "basketball"/>프로농구 중계
+        <input type = "checkbox" name   = "sport" value = "vollyball"/>프로배구 중계
+        <input type = "checkbox" name   = "sport" value = "gogame" checked/>프로바둑 중계<hr>
+        <input type = "submit"   value  = "전송">
+        <input type = "reset"    value  ="다시쓰기">
+        <hr><hr>
+        과제제출 : 파일을 첨부해서 제출하시오<hr>
+        첨부파일 : <input type = "reset" name ="filename"/><hr>
+        
+        <input type = "submit"   value  = "전송">
+        <input type = "reset"    value  ="다시쓰기">
+    </form>
+</body>
+</html>
